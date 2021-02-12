@@ -1,10 +1,12 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        int x = 10;
-        int y = 6;
+        int a = 10;
+        int b = 20;
+        int c = 30;
+        int d = 40;
 
-        int remainder = x % y;
+        int productOfSums = (a + b) * (c + d);
 
-        System.out.println("\n" + "z = " + remainder);
+        System.out.println("\n" + "productOfSums" + " = " + productOfSums + "\n");
     }
 }
