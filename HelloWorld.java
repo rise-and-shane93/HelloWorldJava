@@ -1,12 +1,17 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 20;
-        int c = 30;
-        int d = 40;
+        int x = 3;
+        int y = 2;
+        float w = 2F;
+        float z = 1F;
+        float q;
 
-        int productOfSums = (a + b) * (c + d);
+        q = w / z; // Uniform mode expression
 
-        System.out.println("\n" + "productOfSums" + " = " + productOfSums + "\n");
+        z = x / y; // Mixed mode expression
+        System.out.println("\n" + z);
+
+        z = x / w; // Another mixed mode expression
+        System.out.println(z);
     }
 }
